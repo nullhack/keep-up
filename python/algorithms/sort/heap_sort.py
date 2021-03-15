@@ -1,3 +1,8 @@
+"""
+Adding/removing a new element to a heap can be done in O(log(n))
+Heap is a binary tree in which the parent is always bigger/smaller (max/min heap) than It's childs
+"""
+
 class MinHeap:
     def __init__(self):
         self.l = []

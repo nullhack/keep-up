@@ -1,3 +1,7 @@
+"""
+Choose a pivot, split the elements in between smaller/bigger than the pivot, repeat
+"""
+
 class QuickSort:
     def __init__(self, l):
         self.l = l.copy()
